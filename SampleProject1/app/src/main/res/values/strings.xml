@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sample Project 1</string>
+    <string name="open_main_activity_1">Open Main Activity 1</string>
+    <string name="open_main_activity_2">Open Main Activity 2</string>
+    <string name="question_mark">\?</string>
+    <string name="next">Next</string>
+</resources>
