@@ -1,4 +1,4 @@
-package com.gobinda.viewmodel.sampleproject4
+package com.gobinda.viewmodel.sampleproject5
 
 import android.os.Bundle
 import android.util.Log
@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import androidx.fragment.app.viewModels
+import androidx.fragment.app.activityViewModels
 
 class MainFragment : Fragment() {
 
@@ -21,7 +21,7 @@ class MainFragment : Fragment() {
     private lateinit var replaceFragmentButton: Button
     private lateinit var numberTextView: TextView
 
-    private val viewModel: MainFragmentViewModel by viewModels()
+    private val viewModel: MainFragmentViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
